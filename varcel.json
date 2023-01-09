@@ -8,7 +8,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "vercel_app/wsgi.py"
+      "dest": "Navigus_Assignment_2/wsgi.py"
     }
   ]
 }
