@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "Navigus_Assignment_2/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "vercel_app/wsgi.py"
+    }
+  ]
+}
