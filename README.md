@@ -4,14 +4,14 @@ BookIt is a Django application integrated with DjangoRest Framework for creating
 
 ## Deployed in Heroku
 
-[BookIt Heroku Application](https://bookit-navigus-assignment2.herokuapp.com/)
+[BookIt Vercel Application](https://book-it-now.vercel.app/)
 
 ## Url pattern for API End-points
 
-1. Slot creation  - [https://bookit-navigus-assignment2.herokuapp.com/api/post/](https://bookit-navigus-assignment2.herokuapp.com/api/post/)
-1. View all slots - [https://bookit-navigus-assignment2.herokuapp.com/api/list/](https://bookit-navigus-assignment2.herokuapp.com/api/list/)
-1. Slot Booking   - ```https://bookit-navigus-assignment2.herokuapp.com/api/book/slot_id/```
-1. Slot Remove   -  ```https://bookit-navigus-assignment2.herokuapp.com/api/remove/slot_id/```
+1. Slot creation  - [https://book-it-now.vercel.app/api/post/](https://book-it-now.vercel.app/api/post/)
+1. View all slots - [https://book-it-now.vercel.app/api/list/](https://book-it-now.vercel.app/api/list/)
+1. Slot Booking   - ```https://book-it-now.vercel.app/api/book/slot_id/```
+1. Slot Remove   -  ```https://book-it-now.vercel.app/api/remove/slot_id/```
 
 ```slot_id = The ID of the Slot```
 
@@ -19,21 +19,21 @@ BookIt is a Django application integrated with DjangoRest Framework for creating
 
 ## Sample User data 
 
-For [login](https://bookit-navigus-assignment2.herokuapp.com/login/) in BookIt application.,
+For [login](https://book-it-now.vercel.app/login/) in BookIt application.,
 ```json
 {
   "Email": "sam@gmail.com",
   "Password": "sam123"
 }
 ```
-For [login](https://bookit-navigus-assignment2.herokuapp.com/api-auth/login/?next=/api/list/) in BookIt API endpoints,
+For [login](https://book-it-now.vercel.app/api-auth/login/?next=/api/list/) in BookIt API endpoints,
 ```json
 {
   "Username": "sam",
   "Password": "sam123"
 }
 ```
-For [Django Admin](https://bookit-navigus-assignment2.herokuapp.com/admin/) page,
+For [Django Admin](https://book-it-now.vercel.app/admin/) page,
 ```json
 {
   "Username": "administrator",
@@ -42,8 +42,8 @@ For [Django Admin](https://bookit-navigus-assignment2.herokuapp.com/admin/) page
 ```
 
 ## Flow and Bonus points
-1. User registration at [link](https://bookit-navigus-assignment2.herokuapp.com/register/).
-1. User login and authentication [link](https://bookit-navigus-assignment2.herokuapp.com/login/).
+1. User registration at [link](https://book-it-now.vercel.app/register/).
+1. User login and authentication [link](https://book-it-now.vercel.app/login/).
 1. User can access API from the UI after login or through API Endpoints.
    1. Create slot  
    1. Book slot 

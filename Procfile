@@ -1,1 +1,0 @@
-web: gunicorn Navigus_Assignment_2.wsgi --log-file -
